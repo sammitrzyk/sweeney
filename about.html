@@ -7,7 +7,7 @@
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="logo"><img src="images/logo.png" alt="Sweeney Signs"></a>
-    <nav class="main-nav">
+    <nav class="main-nav" id="main-nav">
       <a href="index.html">Home</a>
       <a href="paint-pinstriping.html">Paint &amp; Pinstriping</a>
       <a href="vinyl-wrapping.html">Vinyl Wrapping</a>
@@ -18,6 +18,12 @@
     <div class="header-cta">
       <a href="contact.html" class="btn btn-primary">Contact Us</a>
     </div>
+
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </div>
 </header>
 
@@ -42,7 +48,7 @@
       <span class="eyebrow">Experience</span>
       <h2 style="margin-bottom: 22px;">Craftsmanship That Carries Across Every Project</h2>
       <p style="font-size:1.05rem; color: var(--ink-soft); margin-bottom:18px;">The work began with traditional hand-painted pinstriping and vehicle lettering — brush in hand, laying out a design directly on the panel. That background carries into everything done today, including vinyl graphics, commercial wraps, and fleet work.</p>
-      <p style="font-size:1.05rem; color: var(--ink-soft);">A lot of that work now comes as a subcontractor, handling paint, lettering, or vinyl installation for other businesses that need an experienced hand. The standard stays the same either way: clean execution, and a vehicle that looks right when it leaves the shop.</p>
+      <p style="font-size:1.05rem; color: var(--ink-soft);">A lot of that work now comes from partnering with other businesses, handling paint, lettering, or vinyl installation for shops that need an experienced hand. The standard stays the same either way: clean execution, and a vehicle that looks right when it leaves the shop.</p>
     </div>
   </div>
 </section>
@@ -66,7 +72,7 @@
       </div>
       <div class="item">
         <h3>Reliability</h3>
-        <p>Professional communication, dependable scheduling, and respect for subcontracted work.</p>
+        <p>Professional communication, dependable scheduling, and respect for every partner's timeline.</p>
       </div>
       <div class="item">
         <h3>Pride in the Finished Work</h3>
@@ -84,14 +90,10 @@
         <h2>A Few Details Along the Way</h2>
       </div>
     </div>
-    <div class="tile-grid cols-3">
+    <div class="tile-grid">
       <figure>
         <img src="images/about-linework-detail.jpg" alt="Hand-painted pinstripe linework along a vehicle rocker panel">
         <figcaption>Hand-Painted Linework</figcaption>
-      </figure>
-      <figure>
-        <img src="images/about-layout-detail.jpg" alt="Pinstripe design laid out by hand on a fender before painting">
-        <figcaption>Layout &amp; Prep</figcaption>
       </figure>
       <figure>
         <img src="images/about-finished-detail.jpg" alt="Close-up of a finished vinyl decal on a specialty vehicle">
@@ -108,8 +110,8 @@
         <img src="images/roadster-custom-paint.jpg" alt="Finished black and orange custom paint on a classic roadster" style="object-position: center 35%;">
       </div>
       <div class="split-copy">
-        <span class="eyebrow" style="color:#e2a898;">Subcontract Work</span>
-        <h2>Trusted for Subcontract Vehicle Graphics Work</h2>
+        <span class="eyebrow">Partner Work</span>
+        <h2>Trusted for Vehicle Graphics Partner Work</h2>
         <p class="lede">Sweeney Signs also works with sign companies, dealerships, body shops, contractors, and other businesses that need an experienced hand for vehicle graphics, lettering, paint, or vinyl installation.</p>
         <p class="lede" style="margin-top:14px;">Reliable turnaround, clear communication, and vehicles that come back ready for the customer.</p>
       </div>
@@ -120,7 +122,7 @@
 <section class="tight">
   <div class="container" style="text-align:center;">
     <h2 style="max-width:640px; margin:0 auto;">Have a Project in Mind?</h2>
-    <p class="lede center" style="margin-top:14px;">Reach out to discuss an upcoming vehicle graphics, pinstriping, lettering, vinyl, or subcontract project.</p>
+    <p class="lede center" style="margin-top:14px;">Reach out to discuss an upcoming vehicle graphics, pinstriping, lettering, or vinyl project.</p>
     <a href="contact.html" class="btn btn-accent" style="margin-top:28px;">Contact Sweeney Signs</a>
   </div>
 </section>
@@ -145,12 +147,13 @@
         <h4>Contact</h4>
         <a href="tel:+15550000000">(555) 000-0000</a>
         <a href="mailto:info@sweeneysigns.com">info@sweeneysigns.com</a>
-        <p>Serving the surrounding region &amp; taking subcontract work</p>
+        <p>Serving the surrounding region for vehicle graphics &amp; vinyl work</p>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 Sweeney Signs. All rights reserved.</span>
-      <span>Vehicle graphics subcontractor — pinstriping, lettering &amp; vinyl wraps</span>
+      <span>Vehicle graphics, pinstriping, lettering &amp; vinyl wraps</span>
     </div>
   </div>
 </footer>
+<script src="js/nav.js"></script>

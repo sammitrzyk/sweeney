@@ -7,7 +7,7 @@
 <header class="site-header">
   <div class="header-inner">
     <a href="index.html" class="logo"><img src="images/logo.png" alt="Sweeney Signs"></a>
-    <nav class="main-nav">
+    <nav class="main-nav" id="main-nav">
       <a href="index.html">Home</a>
       <a href="paint-pinstriping.html" class="active">Paint &amp; Pinstriping</a>
       <a href="vinyl-wrapping.html">Vinyl Wrapping</a>
@@ -18,6 +18,12 @@
     <div class="header-cta">
       <a href="contact.html" class="btn btn-primary">Contact Us</a>
     </div>
+
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="main-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
   </div>
 </header>
 
@@ -26,10 +32,20 @@
   <div class="hero-copy">
     <div class="inner">
       <div class="panel">
-        <span class="eyebrow" style="color:#e2a898;">Paint &amp; Pinstriping</span>
+        <span class="eyebrow">Paint &amp; Pinstriping</span>
         <h1>Paint, Pinstriping &amp; Hand-Lettered Graphics</h1>
         <p class="lede">Traditional automotive artwork created with precision, experience, and attention to the details that make each vehicle unique.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container">
+    <div class="page-intro">
+      <span class="eyebrow">What We Do</span>
+      <h2>Traditional Automotive Artwork, Done by Hand</h2>
+      <p class="lede">Every project starts with careful layout and surface prep, then comes together stroke by stroke — pinstriping, lettering, and custom painted graphics built on years of hands-on experience.</p>
     </div>
   </div>
 </section>
@@ -52,6 +68,36 @@
       <div class="item">
         <h3>Specialty Automotive Artwork</h3>
         <p>One-off work requiring an experienced hand and attention to fine detail.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="tight">
+  <div class="container">
+    <div class="split">
+      <div class="split-copy">
+        <span class="eyebrow">Craftsmanship</span>
+        <h2>From Layout to Finished Line</h2>
+        <p class="lede">Good pinstriping and hand-painted graphics start before the brush ever touches the vehicle. Placement, proportion, surface preparation, and line flow all matter to how the finished work looks.</p>
+        <p class="lede" style="margin-top:14px;">Each project is laid out around the shape and body lines of the vehicle, then completed by hand with attention to balance, consistency, and detail.</p>
+        <div class="service-list" style="grid-template-columns: 1fr; gap: 20px; margin-top: 30px;">
+          <div class="item">
+            <h3>Layout</h3>
+            <p>Designs are positioned to work with the shape, proportions, and body lines of the vehicle.</p>
+          </div>
+          <div class="item">
+            <h3>Preparation</h3>
+            <p>The surface is carefully prepared before paint or lettering is applied.</p>
+          </div>
+          <div class="item">
+            <h3>Hand-Finished</h3>
+            <p>Pinstriping, lettering, and custom graphics are completed by hand with attention to the final detail.</p>
+          </div>
+        </div>
+      </div>
+      <div class="split-media">
+        <img src="images/pinstriped-panel-gold.jpg" alt="Hand-painted panel with gold pinstripe detail">
       </div>
     </div>
   </div>
@@ -91,19 +137,11 @@
   </div>
 </section>
 
-<section>
-  <div class="container">
-    <div class="split reverse">
-      <div class="split-media">
-        <img src="images/roadster-custom-paint-front.jpg" alt="Finished custom paint on the front of a classic roadster">
-      </div>
-      <div class="split-copy">
-        <span class="eyebrow">Every Line by Hand</span>
-        <h2>Precision That Starts Before the Brush Touches the Panel</h2>
-        <p class="lede">Clean pinstriping and lettering depend on preparation as much as skill — surface prep, careful layout, and steady hands. That's the same approach Sweeney Signs brings to every project, from a single stripe to a full custom paint job.</p>
-        <a href="contact.html" class="btn btn-accent">Discuss a Project</a>
-      </div>
-    </div>
+<section class="tight">
+  <div class="container" style="text-align:center;">
+    <h2 style="max-width:640px; margin:0 auto;">Have a Paint or Pinstriping Project in Mind?</h2>
+    <p class="lede center" style="margin-top:14px;">Reach out to discuss custom pinstriping, hand-painted lettering, or a full paint project.</p>
+    <a href="contact.html" class="btn btn-accent" style="margin-top:28px;">Discuss a Project</a>
   </div>
 </section>
 
@@ -127,12 +165,13 @@
         <h4>Contact</h4>
         <a href="tel:+15550000000">(555) 000-0000</a>
         <a href="mailto:info@sweeneysigns.com">info@sweeneysigns.com</a>
-        <p>Serving the surrounding region &amp; taking subcontract work</p>
+        <p>Serving the surrounding region for vehicle graphics &amp; vinyl work</p>
       </div>
     </div>
     <div class="footer-bottom">
       <span>© 2026 Sweeney Signs. All rights reserved.</span>
-      <span>Vehicle graphics subcontractor — pinstriping, lettering &amp; vinyl wraps</span>
+      <span>Vehicle graphics, pinstriping, lettering &amp; vinyl wraps</span>
     </div>
   </div>
 </footer>
+<script src="js/nav.js"></script>
